@@ -3,7 +3,7 @@ import random
 import string
 
 db = mysql.connector.connect(
-    host="localhost", user="root", password="EnterprisePass2026", database="corporate_data"
+    host="localhost", user="root", password="secret", database="corporate_data"
 )
 cursor = db.cursor()
 
